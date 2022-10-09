@@ -1,0 +1,132 @@
+
+.primul-flex {
+   display: flex;
+   flex-direction: column;
+   background-color: #1F2937;
+ 
+   align-items: center;
+   margin-bottom: 10px;
+   padding: 0;
+}
+
+.site-header {
+   display: flex;
+   background-color: #1F2937;
+   align-items: center;
+   justify-content: space-around;
+  
+   flex-grow: 1;
+   flex-shrink: 1;
+ 
+}
+.description-header {
+   margin-top: 100px;
+   display: flex;
+   background-color: #1F2937;
+   gap: 100px;
+   padding-bottom: 100px;
+   justify-content: space-around;
+   
+}
+.text-description {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+button {
+   background-color: #3882F6;
+   color:white;
+   align-self: flex-start;
+   border-radius: 10px;
+   width: 100px;
+}
+.links-header {
+   display: flex;
+  
+  
+   
+}
+a {
+   padding: 10px;
+}
+body {
+   background-color: #1F2937;
+}
+.informatie {
+   display: flex;
+   background-color: aliceblue;
+   flex-direction: column;
+   align-items: center;
+   gap:20px;
+   padding-bottom: 10px;
+   
+}
+.cocktails {
+   display: flex;
+   gap:100px;
+   flex-grow: 1;
+   flex-shrink: 1;
+}
+.cocktail {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.cocktail-photo {
+   border: 10px solid #3882F6;
+   border-radius: 10px;
+}
+.citat {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-color: #E5E7EB;
+   display: flex;
+   justify-content: center;
+}
+.autor {
+   display: flex;
+   justify-content: flex-end;
+}
+.anunt {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   display: flex;
+   background-color: aliceblue;
+   justify-content: center;
+}
+.box {
+   padding-top:50px ;
+   padding-bottom: 50px;
+   background-color: #3882F6;
+   display: flex;
+   width: 1000px;
+   align-content: center;
+   justify-content: space-around;
+   border-radius: 10px;
+   
+}
+.text-in-box{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.buton {
+   align-self: center;
+   border-color:  #E5E7EB;
+   width: auto;
+}
+.terminat {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   display: flex;
+   flex-grow: 1;
+  align-items:center;
+   justify-content: center;
+
+}
+.ultim {
+   display: flex;
+   justify-self: center;
+   color:aliceblue
+}
